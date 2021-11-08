@@ -24,10 +24,6 @@ footer{
     color:white;
     text-align: center;
 }
-#linkedin,#mail,#github{
-    height:4vw;
-    padding-right:0.5vw;
-}
   
 #navbar{
     background-color: black;

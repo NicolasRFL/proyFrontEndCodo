@@ -6,5 +6,43 @@
   }
 
 section{
-    padding-top:10vh;
+  padding:0 0 0 0;
+}
+
+#containerUbi{
+  display:grid;
+  row-gap: 4vh;
+  align-content:center;
+  justify-content: center;
+  background:  rgb(50, 0, 70);
+  padding: 14vh 0 8vh 0;
+}
+
+.redesContainer{
+  display:grid;
+  grid-template-columns: auto auto;
+  grid-template-areas: "a b c d";
+  align-items: center;
+  padding: 10vh 0 12vh 10vw;
+  background-color:lightblue;
+}
+
+.mailTexto, .insImg{
+  grid-area:a;
+}
+
+.iconoI{
+  height:8vw;
+}
+
+.mailImg, .insImg{
+  grid-area:d;
+}
+
+.facTexto{
+  grid-area:d;
+}
+
+.facImg{
+  grid-area:a;
 }
