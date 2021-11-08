@@ -21,38 +21,34 @@
     border-bottom: 3px solid rgb(41, 9, 9);
 }
 
-.item, img{
+.item, .caru{
      height: 60vh ;
      width:  60vh ;
 }
 
-.containerProd{
-    display:grid;
-    justify-content: center;
-    align-content:center;
-    grid-template-columns: 20vw 20vw 20vw;
-    column-gap: 5vw;
-}
-
-.img-producto{
-    max-width:20vw;
-    max-height: 20vh;
-}
-
 #muestraProd{
-    padding-top:10vh;
-    height:100vh;
+    padding:10vh 5vw 10vh 5vw;
     background-image: linear-gradient(
         to bottom,
         rgba(150, 150, 231, 0.5),
         rgba(220, 220, 240, 0.452)
-      ),url(f2.jpeg);
+      );
     background-position: center;
 
     /* Make the background image cover the area of the <div>, and clip the excess */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    display:grid;
+    grid-template-columns: 40vw 40vw;
+    column-gap: 5vw;
+    row-gap: 10vh;
+}
+
+.prod{
+    max-width:100%;
+    max-height:100%;    
+    min-height: 50vh;
 }
 
 .titulo{

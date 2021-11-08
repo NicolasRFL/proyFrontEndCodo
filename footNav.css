@@ -12,7 +12,7 @@ footer{
     grid-template: 'titulo titulo titulo'
     'a b c';
     padding-left:2vw;
-    column-gap: 2vw;
+    column-gap: 12vw;
     background-color: black;
     height:20vh;
 }
