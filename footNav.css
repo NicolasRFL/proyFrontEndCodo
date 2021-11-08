@@ -3,18 +3,20 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    text-align: justify;
     }
 
 footer{
     display:grid;
     justify-content: center;
     align-content:center;
-    grid-template: 'titulo titulo titulo'
-    'a b c';
+    grid-template: 'titulo titulo titulo titulo'
+    'a b c d';
     padding-left:2vw;
     column-gap: 12vw;
-    background-color: black;
-    height:20vh;
+    row-gap:2vh;
+    background-color: steelblue;
+    height:25vh;
 }
 
 .red{
@@ -22,35 +24,9 @@ footer{
     color:white;
     text-align: center;
 }
-
-.fa {
-    padding: 40px;
-    font-size: 70px;
-    width: 150px;
-    text-align: center;
-    text-decoration: none;
-}
-  
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-    grid-area:a;
-}
-
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-    grid-area:b;
-}
-
-.fa-instagram {
-    background: #125688;
-    color: white;
-    grid-area:c;
+#linkedin,#mail,#github{
+    height:4vw;
+    padding-right:0.5vw;
 }
   
 #navbar{
@@ -58,7 +34,7 @@ footer{
     height:8vh;
     padding-left:1vw;
     display:grid;
-    grid-template-columns:auto auto auto;
+    grid-template-columns:auto auto auto auto;
     column-gap: 1vw;
     grid-template-rows: 8vh;
     justify-content:left;
@@ -86,12 +62,7 @@ a{
     color:white;
 }
 
-.fa:hover{
-    color:navajowhite;
-}
-
-.producto{
-    background:white;
-    border-radius:0.8vh;
-    border: 1px solid rgb(41, 9, 9);
+.icono{
+    height:4vw;
+    padding-right:0.5vw;
 }

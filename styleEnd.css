@@ -1,18 +1,19 @@
 #carousel{
-    padding-top:10vh;
+    padding-top:4vh;
     padding-bottom:10vh;
 }
 
 #bienvenida{
     background-color:rgba(7, 31, 136, 0.726);
-    height:100vh;
-    padding-top:14vh;
+    padding-top:12vh;
 }
 
 #presentacion{
     background: white;
     border: 3px solid rgb(41, 9, 9);
     padding:1vw 1vw 0vw 1vw;
+    height: 60.8vh;
+    overflow-y: auto;
 }
 
 #demo{
@@ -55,10 +56,18 @@
     margin-bottom:5vh;
 }
 
-.img-producto{
-    border-radius: 0.8vh 0.8vh 0 0;
+.muestraTexto{
+    font-size:18px;
+    overflow-y: auto;
+    max-height: 40vw;
 }
 
-.text-producto{
-    margin:0.5vw;
+.vinculoT{
+    align-self:flex-end;
+}
+
+#nombre{
+    font-size: 6vw;
+    font-family: 'Times new roman', cursive;
+    color:white;
 }
