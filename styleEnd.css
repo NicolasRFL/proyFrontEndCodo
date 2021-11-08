@@ -1,0 +1,68 @@
+#carousel{
+    padding-top:10vh;
+    padding-bottom:10vh;
+}
+
+#bienvenida{
+    background-color:rgba(7, 31, 136, 0.726);
+    height:100vh;
+    padding-top:14vh;
+}
+
+#presentacion{
+    background: white;
+    border: 3px solid rgb(41, 9, 9);
+    padding:1vw 1vw 0vw 1vw;
+}
+
+#demo{
+    border-top: 3px solid rgb(41, 9, 9);
+    border-right: 3px solid rgb(41, 9, 9);
+    border-bottom: 3px solid rgb(41, 9, 9);
+}
+
+.item, img{
+     height: 60vh ;
+     width:  60vh ;
+}
+
+.containerProd{
+    display:grid;
+    justify-content: center;
+    align-content:center;
+    grid-template-columns: 20vw 20vw 20vw;
+    column-gap: 5vw;
+}
+
+.img-producto{
+    max-width:20vw;
+    max-height: 20vh;
+}
+
+#muestraProd{
+    padding-top:10vh;
+    height:100vh;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(150, 150, 231, 0.5),
+        rgba(220, 220, 240, 0.452)
+      ),url(f2.jpeg);
+    background-position: center;
+
+    /* Make the background image cover the area of the <div>, and clip the excess */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.titulo{
+    margin-bottom:5vh;
+}
+
+.img-producto{
+    border-radius: 0.8vh 0.8vh 0 0;
+}
+
+.text-producto{
+    margin:0.5vw;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styleContact.css">
+    <link rel="stylesheet" href="footNav.css">
+    <script src="map.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <nav id="navbar" class="fixed-top">
+        <a href="index.html" class="vinculo">Home</a>
+        <a href="productos.html" class="vinculo">Productos</a>
+        <a href="contacto.html" class="vinculo">Contacto</a>
+    </nav>
+    <section>
+        <h3>Nuestra Ubicacion</h3>
+        <!--The div element for the map -->
+        <div id="map"></div>
+
+        <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+        <script>
+            function myMap() {
+            var mapProp= {
+            center:new google.maps.LatLng(51.508742,-0.120850),
+            zoom:5,
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+            }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbSTlBjqI9RkeIM-28LNtwQfsIWWAhb58&callback=myMap"></script>
+        <div id="googleMap" style="width:100%;height:400px"></div>
+    </section>
+    <footer id="redes">
+        <h4 class="red">Nuestras redes</h4>
+        <a href="#" class="fa fa-facebook" > </a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,67 @@
+.containerProd{
+    display:grid;
+    justify-content: center;
+    align-content:center;
+    grid-template-columns: 20vw 20vw 20vw;
+    column-gap: 5vw;
+    row-gap: 10vh;
+}
+
+.img-producto{
+    width: 100%;
+    max-height: 20vh;
+}
+
+#muestraProd{
+    padding-top:8vh;
+    height:180vh;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(150, 150, 231, 0.5),
+        rgba(15, 15, 221, 0.3)
+      );
+    background-position: center;
+    /* Make the background image cover the area of the <div>, and clip the excess */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section{
+    margin-top:4vh;
+    padding-bottom:4vh;
+}
+
+.titulo{
+    margin-bottom:6vh;
+}
+
+.img-producto{
+    border-radius: 0.8vh 0.8vh 0 0;
+}
+
+.text-producto{
+    margin:0.5vw;
+}
+
+textarea{
+    resize:none;
+}
+
+#consultas{
+    display:grid;
+    justify-content: center;
+    align-content:center;
+    grid-template-columns: 60vw;
+    column-gap: 5vw;
+    row-gap: 1vh;
+}
+
+#submit{
+    width:20%;
+}
+
+#prodConsulta{
+    padding-top:4vh;
+    margin-bottom:4vh;
+}
